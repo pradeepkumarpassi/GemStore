@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="your_stroke_color">#A0A0A0</color>
+    <color name="your_dot_color">#000000</color>
+
+
+</resources>

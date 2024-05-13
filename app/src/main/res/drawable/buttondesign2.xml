@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#806F0707" />
+            <!-- Adjust the alpha value (#80) based on your preference -->
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+
+
+</layer-list>

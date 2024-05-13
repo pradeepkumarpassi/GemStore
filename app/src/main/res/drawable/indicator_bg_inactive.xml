@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/indicator_bg_inactive.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="#A0A0A0" /> <!-- Use your desired inactive color -->
+    <size android:width="@dimen/indicator_size" android:height="@dimen/indicator_size" />
+
+</shape>

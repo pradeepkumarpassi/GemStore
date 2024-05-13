@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- mobile_navigation.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homepage">
+
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.example.gemstore.homepage"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" />
+
+    <fragment
+        android:id="@+id/searchpage"
+        android:name="com.example.gemstore.searchpage"
+        android:label="fragment_searchpage"
+        tools:layout="@layout/fragment_searchpage" />
+
+    <fragment
+        android:id="@+id/addtocart"
+        android:name="com.example.gemstore.Addtocart"
+        android:label="fragment_addtocart"
+        tools:layout="@layout/fragment_addtocart" />
+
+    <fragment
+        android:id="@+id/profilepage"
+        android:name="com.example.gemstore.profilepage"
+        android:label="fragment_profilepage"
+        tools:layout="@layout/fragment_profilepage" />
+
+</navigation>

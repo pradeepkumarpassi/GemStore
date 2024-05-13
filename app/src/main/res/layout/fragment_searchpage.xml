@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".searchpage">
+
+    <androidx.cardview.widget.CardView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp">
+        <!-- Add the SearchView -->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:background="@color/black"
+        android:layout_width="50dp"
+        app:cardCornerRadius="40dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:id="@+id/imagese"
+            android:layout_width="match_parent"
+            android:src="@drawable/frame"
+            android:layout_height="match_parent"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- Add your existing layout content -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Add your other UI elements here -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bannerRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="130dp"
+            android:layout_height="500dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+

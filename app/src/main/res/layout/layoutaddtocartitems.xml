@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/image1221"
+                android:layout_width="150dp"
+                android:scaleType="centerCrop"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_launcher_background" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textview1223"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="170dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Name of product"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textview1224"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="130dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:text="saving"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:id="@+id/textview1225"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Price"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textview1226"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="mrp"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="----------"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textview1227"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="company"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:text="Quantity : "/>
+
+        <Spinner
+            android:id="@+id/quantity_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="170dp"
+            android:entries="@array/quantity_array"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="260dp"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/deletebutton12345"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="DELETE"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:background="#2B7BF6"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
